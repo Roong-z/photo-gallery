@@ -1,0 +1,39 @@
+.wrap {
+  max-width: 760px;
+}
+
+.h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  letter-spacing: 0.08em;
+}
+
+.p {
+  margin: 0 0 16px;
+  opacity: 0.82;
+  line-height: 1.6;
+}
+
+.box {
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.placeholder {
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  display: grid;
+  place-items: center;
+  letter-spacing: 0.2em;
+  opacity: 0.55;
+}
+
+.small {
+  margin-top: 12px;
+  font-size: 12px;
+  opacity: 0.75;
+  line-height: 1.6;
+}

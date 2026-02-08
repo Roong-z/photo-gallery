@@ -1,0 +1,118 @@
+.wrap {
+  max-width: 980px;
+}
+
+.h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  letter-spacing: 0.08em;
+}
+
+.p {
+  margin: 0 0 16px;
+  opacity: 0.82;
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 14px;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  opacity: 0.65;
+  text-transform: uppercase;
+}
+
+.email {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+.small {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.75;
+  line-height: 1.5;
+}
+
+.form {
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+@media (max-width: 520px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.field span {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.25);
+  color: inherit;
+  outline: none;
+}
+
+.submit {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 12px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  letter-spacing: 0.06em;
+}
+
+.tiny {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.65;
+  line-height: 1.5;
+}

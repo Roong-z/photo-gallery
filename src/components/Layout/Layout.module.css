@@ -1,0 +1,43 @@
+.shell {
+  min-height: 100vh;
+  position: relative;
+  z-index: 3; /* scanline/noise 위에 콘텐츠 */
+}
+
+.main {
+  width: min(1040px, 92vw);
+  margin: 0 auto;
+  padding: 70px 0 110px;
+}
+
+.footer {
+  width: min(1040px, 92vw);
+  margin: 0 auto;
+  padding: 22px 0 28px;
+  opacity: 0.8;
+}
+
+.footerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.stamp {
+  display: inline-flex;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px dashed rgba(233, 229, 220, 0.22);
+  letter-spacing: 0.22em;
+  font-size: 11px;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.copy {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  opacity: 0.6;
+}

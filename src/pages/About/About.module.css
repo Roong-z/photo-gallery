@@ -1,0 +1,36 @@
+.wrap {
+  max-width: 760px;
+}
+
+.h2 {
+  font-size: 22px;
+  letter-spacing: 0.08em;
+  margin: 0 0 10px;
+}
+
+.p {
+  margin: 0;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+.box {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  opacity: 0.65;
+  text-transform: uppercase;
+}
+
+.p2 {
+  margin: 10px 0 0;
+  line-height: 1.7;
+  opacity: 0.85;
+}

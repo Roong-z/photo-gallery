@@ -1,0 +1,194 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+.left {
+  padding: 24px 18px;
+}
+
+.labelRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag,
+.tagAlt {
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px dashed rgba(233, 229, 220, 0.2);
+  letter-spacing: 0.22em;
+  font-size: 11px;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.tagAlt {
+  border-style: solid;
+  border-color: rgba(255, 43, 214, 0.22);
+  box-shadow: 0 0 0 1px rgba(255, 43, 214, 0.08) inset;
+}
+
+.title {
+  margin: 18px 0 10px;
+  line-height: 0.95;
+}
+
+.titleThin {
+  display: block;
+  font-size: 46px;
+  letter-spacing: 0.06em;
+  opacity: 0.75;
+}
+
+.titleBold {
+  display: block;
+  font-size: 56px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-shadow: 0 0 22px rgba(255, 43, 214, 0.14);
+}
+
+.desc {
+  margin: 0;
+  max-width: 52ch;
+  opacity: 0.8;
+  line-height: 1.75;
+}
+
+.actions {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btnGhost {
+  background: rgba(0, 0, 0, 0.18);
+  border-color: rgba(233, 229, 220, 0.18);
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--neonG);
+  box-shadow: 0 0 18px rgba(182, 255, 0, 0.25);
+}
+
+.whisper {
+  margin-top: 18px;
+  opacity: 0.55;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.whisperLine {
+  display: block;
+  margin-top: 6px;
+}
+
+.right {
+  padding: 24px 0;
+}
+
+.panel {
+  padding: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 패널 위에 낡은 종이 얼룩 */
+.panel::before {
+  content: '';
+  position: absolute;
+  inset: -40%;
+  background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.06),
+    transparent 70%
+  );
+  opacity: 0.55;
+  transform: rotate(12deg);
+  pointer-events: none;
+}
+
+.panelHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(233, 229, 220, 0.12);
+  position: relative;
+  z-index: 1;
+}
+
+.serial {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  opacity: 0.6;
+}
+
+.panelBody {
+  padding-top: 14px;
+  display: grid;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.k {
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.v {
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+}
+
+.panelFoot {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.smallLink {
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(233, 229, 220, 0.12);
+  background: rgba(255, 255, 255, 0.02);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.smallLink:hover {
+  opacity: 1;
+  border-color: rgba(182, 255, 0, 0.3);
+}
