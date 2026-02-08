@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import styles from './Home.module.css';
+import { Link } from "react-router-dom";
+import styles from "./Home.module.css";
 
 export default function Home() {
   return (
@@ -16,9 +16,9 @@ export default function Home() {
         </h1>
 
         <p className={styles.desc}>
-          Texture. Emotion. Dreamscape
+          Light · Shadow · Emotion
           <br />
-          Art, Tatoo
+          Quiet moments shaped by light and shadow. photographs by j
         </p>
 
         <div className={styles.actions}>
