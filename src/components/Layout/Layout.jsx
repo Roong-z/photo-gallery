@@ -1,6 +1,6 @@
-import { Outlet } from 'react-router-dom';
-import styles from './Layout.module.css';
-import Nav from '../Nav/Nav.jsx';
+import { Outlet } from "react-router-dom";
+import styles from "./Layout.module.css";
+import Nav from "../Nav/Nav.jsx";
 
 export default function Layout() {
   return (
@@ -14,7 +14,9 @@ export default function Layout() {
       <footer className={styles.footer}>
         <div className={styles.footerInner}>
           <span className={styles.stamp}>PRIVATE STUDIO</span>
-          <span className={styles.copy}>© {new Date().getFullYear()} MJ</span>
+          <span className={styles.copy}>
+            © {new Date().getFullYear()}PHOTOS'J
+          </span>
         </div>
       </footer>
     </div>
