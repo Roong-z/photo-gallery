@@ -18,7 +18,9 @@ export default function Home() {
         <p className={styles.desc}>
           Light · Shadow · Emotion
           <br />
-          Quiet moments shaped by light and shadow. photographs by j
+          Quiet moments shaped by light and shadow.
+          <br />
+          photographs by j
         </p>
 
         <div className={styles.actions}>
@@ -46,15 +48,15 @@ export default function Home() {
           <div className={styles.panelBody}>
             <div className={styles.item}>
               <span className={styles.k}>Location</span>
-              <span className={styles.v}>Canada</span>
+              <span className={styles.v}>Osaka</span>
             </div>
             <div className={styles.item}>
               <span className={styles.k}>Style</span>
-              <span className={styles.v}>line / texture / distortion</span>
+              <span className={styles.v}>Light · Shadow · Emotion</span>
             </div>
             <div className={styles.item}>
               <span className={styles.k}>Contact</span>
-              <span className={styles.v}>your.email@example.com</span>
+              <span className={styles.v}>cracker1023@gmail.com</span>
             </div>
           </div>
 
